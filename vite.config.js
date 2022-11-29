@@ -5,7 +5,7 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 export default defineConfig({
 	optimizeDeps: {
 		esbuild: {
-			target: 'es2020'
+			target: 'es2021'
 		}
 	},
 
